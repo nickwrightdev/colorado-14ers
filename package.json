@@ -1,14 +1,15 @@
 {
   "name": "colorado-14ers",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get random Colorado 14ers",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickwrightdev/colorado-14ers.git"
+    "url": "https://github.com/nickwrightdev/colorado-14ers.git"
   },
   "keywords": [
     "random",
@@ -23,5 +24,10 @@
   "homepage": "https://github.com/nickwrightdev/colorado-14ers#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.1.2",
+    "semantic-release": "^4.3.5"
   }
 }
