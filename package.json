@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nickwrightdev/colorado-14ers/issues"
   },
-  "homepage": "https://github.com/nickwrightdev/colorado-14ers#readme"
+  "homepage": "https://github.com/nickwrightdev/colorado-14ers#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }
