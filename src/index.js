@@ -1,6 +1,7 @@
-var uniqueRandomArray = require('unique-random-array');
-var colorado14ers = require('./colorado-14ers.json');
-var getRandomItem = uniqueRandomArray(colorado14ers);
+import uniqueRandomArray from 'unique-random-array';
+import colorado14ers from './colorado-14ers.json';
+
+const getRandomItem = uniqueRandomArray(colorado14ers);
 
 module.exports = {
 	all: colorado14ers,
