@@ -1,0 +1,24 @@
+{
+  "name": "colorado-14ers",
+  "version": "1.0.0",
+  "description": "Get random Colorado 14ers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickwrightdev/colorado-14ers.git"
+  },
+  "keywords": [
+    "random",
+    "colorado",
+    "14ers"
+  ],
+  "author": "Nick Wright <nick@nickwrightdev.com> (http://nickwrightdev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickwrightdev/colorado-14ers/issues"
+  },
+  "homepage": "https://github.com/nickwrightdev/colorado-14ers#readme"
+}
